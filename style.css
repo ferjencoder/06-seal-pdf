@@ -1,0 +1,37 @@
+/* Custom CSS to center the section */
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.center-screen {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+/* Dark theme styles */
+body {
+    background-color: #121212 !important;
+    color: #ffffff !important;
+}
+
+/* Styles for the footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #1f1f1f;
+    padding: 5px;
+    font-size: 12px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
